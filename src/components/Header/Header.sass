@@ -1,0 +1,24 @@
+@import '../../mq.sass'
+
+$cOne: #C1C1C1
+
+.nav
+  background-color: #383838 !important
+  a:hover
+      color: gray !important
+
+  .nav-left a
+      color: #FFF !important
+      font-weight: bold
+
+  a.r-item
+    color: #C1C1C1 !important
+    padding: 0.5rem 1.75rem
+    +mobile
+      color: gray !important
+      &:hover
+        background-color: #F1F1F1 !important
+
+  .nav-toggle span
+      background-color: $cOne
+
